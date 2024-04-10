@@ -1,0 +1,95 @@
+body{
+    background-image: url(images/fondo.jpg);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.titulo_uno{
+    background-color: #5DEBD7 ;
+    font-size: 2rem;
+    color: #074173;
+    justify-content: center;
+    
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+    }
+      
+      
+      
+
+.titulo_dos{
+    color: #1679AB;
+        font-family: "Sancreek", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+.titulo_tres{
+    background-color:#00224D;
+    color: azure;
+    
+        font-family: "Fredericka the Great", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+li{
+    color: #074173;
+    text-shadow: 2px 3px 20px #C5FF95;
+    // <uniquifier>: Use a unique and descriptive class name
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+td{
+    color: #074173;
+    text-shadow: 2px 3px 20px #C5FF95;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #1679AB;
+    color: #C5FF95;
+    
+}
+button:hover{
+    background-color:red;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: #074173;
+    color: azure;
+}
+.table td:hover{
+    background-color: #074173;
+    color:#C5FF95;
+}
+.table th:hover{
+    background-color: #5D0E41;
+    color: bisque;
+}
+.td{
+    font-weight: bold;
+}
